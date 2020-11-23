@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ <script>
+     let temp;
+     do
+     {
+         /*nhap lai nhiet do*/
+         if(temp<20)
+         {
+             temp=+prompt('nhiet do qua thap, nhap lai ','');
+         }
+         else if(temp>100)
+         {
+             temp=+prompt('nhiet do qua cao, nhap lai','');
+         }
+         else
+         {
+             temp=+prompt('nhap nhiet do','');
+         }
+     }while(temp<20 || temp>100)
+ </script>
+</body>
+</html>
